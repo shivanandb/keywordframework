@@ -32,5 +32,6 @@
 	<classpathentry kind="lib" path="C:/Users/shivanandbhad.padiy/Downloads/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/snakeyaml-1.15.jar"/>
 	<classpathentry kind="lib" path="C:/Users/shivanandbhad.padiy/Downloads/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/shivanandbhad.padiy/Downloads/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shivanandbhad.padiy/Downloads/ExcelReportGenerator-4.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5912" started-at="2019-06-13T12:06:34Z" finished-at="2019-06-13T12:06:40Z">
+  <suite name="Default suite" duration-ms="13832" started-at="2019-06-25T11:37:57Z" finished-at="2019-06-25T11:38:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5912" started-at="2019-06-13T12:06:34Z" finished-at="2019-06-13T12:06:40Z">
-      <class name="com.test.Tests.BaseTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.Tests.BaseTest@73846619]" name="setup" is-config="true" duration-ms="3892" started-at="2019-06-13T12:06:34Z" finished-at="2019-06-13T12:06:38Z">
+    <test name="Default test" duration-ms="13832" started-at="2019-06-25T11:37:57Z" finished-at="2019-06-25T11:38:11Z">
+      <class name="executionEngine.DriverScript">
+        <test-method status="PASS" signature="invokeexcel()[pri:1, instance:executionEngine.DriverScript@64bf3bbf]" name="invokeexcel" duration-ms="515" started-at="2019-06-25T11:37:57Z" finished-at="2019-06-25T11:37:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="starttest()[pri:0, instance:com.test.Tests.BaseTest@73846619]" name="starttest" duration-ms="916" started-at="2019-06-13T12:06:38Z" finished-at="2019-06-13T12:06:39Z">
+        </test-method> <!-- invokeexcel -->
+        <test-method status="PASS" signature="test1()[pri:2, instance:executionEngine.DriverScript@64bf3bbf]" name="test1" duration-ms="13085" started-at="2019-06-25T11:37:57Z" finished-at="2019-06-25T11:38:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- starttest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.Tests.BaseTest@73846619]" name="teardown" is-config="true" duration-ms="1092" started-at="2019-06-13T12:06:39Z" finished-at="2019-06-13T12:06:40Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="ending()[pri:0, instance:executionEngine.DriverScript@64bf3bbf]" name="ending" is-config="true" duration-ms="196" started-at="2019-06-25T11:38:10Z" finished-at="2019-06-25T11:38:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.test.Tests.BaseTest -->
+        </test-method> <!-- ending -->
+      </class> <!-- executionEngine.DriverScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

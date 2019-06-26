@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.Tests.BaseTest">
+      <class name="executionEngine.DriverScript">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="starttest"/>
+          <include name="invokeexcel"/>
         </methods>
-      </class> <!-- com.test.Tests.BaseTest -->
+      </class> <!-- executionEngine.DriverScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
