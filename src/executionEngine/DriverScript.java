@@ -15,8 +15,6 @@ public class DriverScript extends ExcelUtils {
 	public static int iRow;
 	
 
-	 
-
 	
 	public static String path ="C:\\Users\\shivanandbhad.padiy\\eclipse-workspace\\RestAssured_Project\\src\\dataEngine\\DataEngine.xlsx";
 

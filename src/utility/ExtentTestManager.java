@@ -15,6 +15,7 @@ public class ExtentTestManager {
 		return (ExtentTest) extentTestMap.get((int) (long) (Thread.currentThread().getId()));
 	}
 
+	
 	public static synchronized void endTest() {
 		extent.flush();
 	}

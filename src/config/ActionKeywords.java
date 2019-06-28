@@ -10,6 +10,8 @@ public static WebDriver driver;
 public static void openBrowser() {
 	System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
     driver = new ChromeDriver();
+    //ydfugig
+    //uioooij
 }
 
 public static void navigate(){ 

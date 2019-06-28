@@ -16,6 +16,7 @@ public static ExtentReports getInstance() {
         createInstance();
     return extent;
 }
+
 //Create an extent report instance
 public static ExtentReports createInstance() {
 
